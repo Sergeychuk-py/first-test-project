@@ -1,10 +1,10 @@
-name: Run auto tests
+name: Run autotests
 
 
 on:
   workflow_dispatch:
     inputs:
-      deploument_target:
+      deployment_target:
         description: select tests to run
         required: true
         type: choice
